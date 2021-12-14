@@ -60,6 +60,9 @@
 .margin-tb { margin-top: 5%; margin-bottom: 5%; }
 .margin-lr { margin-left: 5%; margin-right: 5%; }
 
+.right  { text-align: right; }
+.center { text-align: center; }
+
 /* ----- Universal Typography ----- */
 h2, h3, h4, h5, h6 {
 	line-height: 1.1;
@@ -95,7 +98,6 @@ p {
 
 /* Temporary Style - DELETE */
 * {
-  padding: 0.5rem;
   /* border: 2px solid rgb(200,200,200); */
 }
 
@@ -105,13 +107,17 @@ body {
 }
 /* End of Temporary Style */
 
+.img-1 { background-image: url('images/hotel-image-1.jpg'); }
+.img-2 { background-image: url('images/hotel-image-2.jpg'); }
+.img-3 { background-image: url('images/hotel-image-3.jpg'); }
+.img-4 { background-image: url('images/hotel-image-4.jpg'); }
+.img-5 { background-image: url('images/hotel-image-5.jpg'); }
+.img-6 { background-image: url('images/hotel-image-6.jpg'); }
+.img-map { background-image: url('images/map-sydney.jpg'); }
+
 /* Main Page */
 body {
   font-family: 'Domine', serif;
-}
-
-[class*=col-] {
-  margin: 0;
 }
 
 a {
@@ -153,20 +159,23 @@ h1 {
   min-height: 75vh;
 }
 
-.dark div,
-.dar h3,
-.dark p  {
+.dark  {
   color: white;
+  background-color: #24282b;
+  padding: 5%;
+}
+
+[class*=img-] {
+  max-width: 100%;
+  display: block;
+  margin: 0;
+  background-size: cover;
+  background-position: center;
+  min-height: 75vh;
   background-color: teal;
 }
 
-img {
-  max-width: 100%;
-  /* display: block; */
-  padding: 0;
-  margin: 0;
+footer h1 {
+  text-transform: uppercase;
+  padding: 5%;
 }
-
-/* footer {
-  background-image:
-} */
