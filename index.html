@@ -5,6 +5,9 @@
         <!-- The title for the SEO & browser tab -->
         <title> The Bunker Hotel Sydney </title>
 
+        <!-- Viewport meta tag -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
         <!-- Gridlex -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gridlex/2.6.0/gridlex.min.css">
 
@@ -12,6 +15,7 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Domine:wght@400;700&family=Lemonada:wght@300;400&family=Sansita+Swashed:wght@300;400&display=swap" rel="stylesheet">        <link href="https://fonts.googleapis.com/css2?family=Domine:wght@400;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300;900&display=swap" rel="stylesheet">
 
         <!-- Icon Link - Font Awesome -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
@@ -22,15 +26,17 @@
     </head>
 
     <body>
-        <header>
-            <h1> The Bunker </h1>
+        <!-- Header -->
+        <header class="grid">
+            <div class="col-12-middle">
+                <h1> The Bunker </h1>
+            </div>
         </header>
 
-        <section class="grid dark">
-            <div class="col-6 img-6 padded-md">
-                
-            </div>
-            <div class="col-6-middle padded-md">
+        <!-- Opening Theme -->
+        <section class="grid dark padded-lg">
+            <div class="col-6_sm-12 img-6 tall-50"> </div>
+            <div class="col-6_sm-12-middle padded-l padded-tb">
                 <h3> Lux </h3> 
                 <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea amet, obcaecati eligendi iste nesciunt non. Modi nulla laudantium natus praesentium quas? 
                     <br>
@@ -38,45 +44,41 @@
             </div>
         </section>
 
-        <section>
-            <div class="banner img-3">
+        <!-- Opening Banner -->
+        <section class="grid banner img-3 tall-50 padded-lg">
+            <div class="col-12-middle">
                 <h2> Opening Mid May </h2> 
                 <h3> 2021 </h3>
             </div>
         </section>
 
+        <!-- Features -->
         <section class="grid">
-            <div class="col-6-middle padded-md">
-                <h3> Loby Dreams </h3>
+            <div class="col-6_sm-12-middle padded-lg">
+                <h3> Lobby Dreams </h3>
                 <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit, assumenda neque voluptas, expedita officiis totam deleniti numquam natus, aperiam eveniet laudantium odit iusto adipisci autem? Rem rerum numquam corporis perspiciatis!</p>
             </div>
-            <div class="col-6 img-2">
-
-            </div>
+            <div class="col-6_sm-12 img-2 tall-70"> </div>
         </section>
 
         <section class="grid">
-            <div class="col-6 img-4">
-
-            </div>
-
-            <div class="col-6-middle padded-md">
+            <div class="col-6_sm-12 img-4 tall-70"> </div>
+            <div class="col-6_sm-12-middle padded-lg">
                 <h3> The Bunker Bar </h3>
                 <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit, assumenda neque voluptas, expedita officiis totam deleniti numquam natus, aperiam eveniet laudantium odit iusto adipisci autem? Rem rerum numquam corporis perspiciatis!</p>
             </div>
         </section>
 
         <section class="grid">
-            <div class="col-6-middle padded-md">
+            <div class="col-6_sm-12-middle padded-lg">
                 <h3> Fall in Love </h3>
                 <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit, assumenda neque voluptas, expedita officiis totam deleniti numquam natus, aperiam eveniet laudantium odit iusto adipisci autem? Rem rerum numquam corporis perspiciatis!</p>
             </div>
-            <div class="col-6 img-5">
-
-            </div>
+            <div class="col-6_sm-12 img-5 tall-70"> </div>
         </section>
 
-        <section class="dark center">
+        <!-- Social Media -->
+        <section class="dark right padded-md">
             <div>
                 <h2> Hit us up on socials </h2>
                 <nav> 
@@ -88,19 +90,22 @@
             </div>
         </section>
 
-        <section class="img-map">
-            <a href="#"> Get Directions </a>
-        </section>
+        <!-- Map -->
+        <section class="img-map tall-70"> </section>
 
-        <footer class="grid-spaceBetween dark">
-            <div class="col-6-left">
+        <!-- Footer -->
+        <footer class="grid dark">
+            <div class="col-9_sm-12">
                 <h1> The <br> Bunker </h1>
             </div>
-            <div class="col-3-right">
-                <p> Stay with us </p>
+            <div class="col-3_sm-12-middle">
+                <h4> Stay with us </h4>
                 <p> <a href="#"> 77 Orchid Avenue, Sydney </a> </p>
                 <p> <a href="mailto:hello@thebunker.com"> hello@thebunker.com </a> </p>
-                <p> <a href="tel:180055555"> 1800-55555 </a> </p>
+                <p> <a href="tel:180055555"> 1800 THE BUNKER </a> </p>
+            </div>
+            <div class="col-12">
+                <p class="subtle copyright"> Copyright 2021 </p>
             </div>
         </footer>
     </body>
